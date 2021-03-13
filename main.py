@@ -77,7 +77,7 @@ RFA = commandLineInterface()
 x = 0
 timeList = []
 telList = []
-while x < 184:
+while x < len(RFA):
     tempArray = RFA[x].split(":")
     timeList.append(tempArray[0])
     telList.append(tempArray[2])
